@@ -1,0 +1,144 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.answer-button:hover {
+  background-color: gold;
+  color: black;
+}
+
+.start-quiz {
+  background-color: purple;
+  color: white;
+  background-clip: padding-box;
+  border: 1px solid black;
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  color: white;
+}
+
+.desc {
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.start-quiz:hover {
+  background-color: goldenrod;
+  color: black;
+}
+
+.answer-button:active {
+  background-color: goldenrod;
+  color: white;
+  background-clip: padding-box;
+}
+
+.selected-answer {
+  background-color: gold;
+  color: black;
+  background-clip: padding-box;
+  border: 5px solid violet;
+  margin-bottom: 1rem;
+}
+
+.navbar {
+  background-color: purple;
+  border-bottom: black solid 5px;
+}
+
+#logo {
+  margin-left: 0.5rem;
+}
+
+.quiz-title {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.navbar-nav a {
+  color: white;
+  font-size: 1.25rem;
+}
+
+
+
+.answer-button {
+  background-color: goldenrod;
+  margin-bottom: 1rem;
+}
+
+.answer::after {
+  position: absolute;
+    top: -2px; left: -2px;
+    bottom: -2px; right: -2px;
+    background: gold;
+}
+
+.submit-answer {
+  background-color: violet;
+  color: black;
+  background-clip: padding-box;
+  border: 1px solid black;
+  margin-bottom: 0.5rem;
+}
+
+.submit-answer:hover {
+  background-color: white;
+  color: black;
+}
+
+.answer {
+  padding: 0.5rem;
+}
+
+#question-box {
+  background-color: purple;
+  color: white;
+}
+
+input[type=radio] {
+  accent-color: gold;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
