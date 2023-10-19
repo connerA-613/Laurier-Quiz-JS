@@ -9,7 +9,14 @@ const Quiz = (props) => {
     const answerClick = event => {
         let currId = event.target.id;
         let btn = document.getElementById(currId);
-        setAnswer(event.target.value);
+        let arr = [];
+        for (let i = 0; i < event.target.value.length; i++) {
+            if (event.target.value[i] != ',') {
+                arr.push(parseInt(event.target.value[i]));
+            }
+        }
+        setAnswer(arr);
+        console.log(arr);
         for (var i = 0; i < props.question.answers.length; i++) {
           let btn1 = document.getElementById("answerButton" + (i));
           if (btn1.id == btn.id) {
@@ -35,7 +42,7 @@ const Quiz = (props) => {
             <h2>{props.question.questionText}</h2>
             <div className="list-group">
                 {props.question.answers.map(function(data, index) {
-                    return <button type="button" onClick={(event) => answerClick(event, 'value')} className="answer-button" id={"answerButton" + index} data-toggle="button" value={data.letter}>{data.text}</button>
+                    return <button type="button" onClick={(event) => answerClick(event, 'value')} className="answer-button" id={"answerButton" + index} data-toggle="button" value={data.points}>{data.text}</button>
                 })}
                 
             </div>

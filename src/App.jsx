@@ -28,10 +28,19 @@ function App() {
   ]));
 
   const submitAnswer = answer => {
-    console.log(answer)
     let resultsCopy = results
-    for (let i = 0; i < answer.length; i++) {
+    /*for (let i = 0; i < answer.length; i++) {
       resultsCopy.set(answer[i], results.get(answer[i]) + 1);
+    }*/
+    let i = 0;
+    for (let [key, value] of resultsCopy) {
+      if (answer[i] == ',') {
+        i++;
+      } else {
+        resultsCopy.set(key, parseInt(value) + parseInt(answer[i]));
+      }
+      
+      i++;
     }
     setResults(resultsCopy);
     console.log(results);
