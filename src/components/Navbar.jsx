@@ -16,10 +16,10 @@ const Navbar = (props) => {
                           <a class="nav-link" onClick={() => props.startQuiz()} href="#">Take Quiz <span class="sr-only"></span></a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Contact Us</a>
+                          <a class="nav-link" href="mailto:offcampushousing@wlu.ca">Contact Us</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="https://www.wlu.ca/">Laurier Website</a>
+                          <a class="nav-link" href="https://students.wlu.ca/student-life/residence-and-off-campus-housing/off-campus-initiatives/off-campus-housing/index.html">Laurier Website</a>
                         </li>
                       </ul>
                     </div>
