@@ -18,7 +18,24 @@
   margin-bottom: 0.5rem;
 }
 
+.navbar-toggler {
+  margin-right: 0.5rem;
+}
+
+.result-image {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.5rem;
+}
+
+#restart {
+  margin-top: 2rem;
+  margin-right: 1rem;
+}
+
 .title {
+  margin-bottom: 1rem;
   color: white;
 }
 
@@ -101,6 +118,15 @@
 #question-box {
   background-color: purple;
   color: white;
+}
+
+#result-box {
+  background-color: purple;
+  color: white;
+  margin-top: 2rem;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 input[type=radio] {
