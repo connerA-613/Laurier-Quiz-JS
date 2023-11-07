@@ -10,6 +10,11 @@
   color: black;
 }
 
+.title {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .start-quiz {
   background-color: purple;
   color: white;
@@ -37,6 +42,12 @@
 .title {
   margin-bottom: 1rem;
   color: white;
+}
+
+body {
+  background-image: url("https://www.ontariouniversitiesinfo.ca/assets/files/images/ouinfo-wlu-wat-feature-1080x610-2.jpg");
+  background-color: grey;
+  background-blend-mode: multiply;
 }
 
 .desc {
