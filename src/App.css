@@ -124,10 +124,18 @@
 #result-box {
   background-color: purple;
   color: white;
-  margin-top: 2rem;
-  width: 75%;
+  margin-top: 4rem;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  #result-box {
+    margin-top: 4rem;
+    width: 100%;
+    font-size: 8px;
+  }
 }
 
 input[type=radio] {

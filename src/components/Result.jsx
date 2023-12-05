@@ -34,7 +34,7 @@ const Result = (props) => {
         imageUrl = "https://cf.bstatic.com/xdata/images/hotel/max1024x768/219302183.jpg?k=dd05bf821f0385667a2b45a7f27724fd6962804633b33b6f2fbfe8ffccb1b4df&o=&hp=1"
     }
 
-    async function sendEmail(userEmail) {
+    /*async function sendEmail(userEmail) {
         try {
             await resend.send({
                 from: 'onboarding@resend.dev',
@@ -46,7 +46,7 @@ const Result = (props) => {
         } catch (err) {
             console.error(err);
         }
-    }
+    }*/
     return (
         <>
         <div className="justify-content-center">
@@ -56,7 +56,6 @@ const Result = (props) => {
                 <h2 className="desc">{final.desc}</h2>
             </div>
             <button className="start-quiz" id="restart" onClick={() => props.restartQuiz()}>Restart Quiz</button>
-            <button className="start-quiz" onClick={() => sendEmail()}>Email Results</button>
         </div>
         </>
     )
