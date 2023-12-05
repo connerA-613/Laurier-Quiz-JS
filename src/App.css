@@ -89,6 +89,7 @@
 .answer-button {
   background-color: goldenrod;
   margin-bottom: 1rem;
+  color: black;
 }
 
 .answer::after {

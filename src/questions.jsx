@@ -56,7 +56,7 @@ const questions =  [
   questionText: 'Q7. Furniture included? Yes please, or no thank you?',
   answers: [
   {text: 'Everything included and yes, im willing to pay extra!', points: [2,0,0,0,2]},
-  {text: 'A couch for the living room would be ideas, but I can bring my own bed.', points: [1,1,0,1,1]},
+  {text: 'A couch for the living room would be ideal, but I can bring my own bed.', points: [1,1,0,1,1]},
   {text: 'Nothing for me! I want an empty space!', points: [0,0,2,0,0]},
   {text: 'Facebook marketplace is kind of my thing... I\'d take a mixture of both', points: [0,1,0,1,0]},
   ],
