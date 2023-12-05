@@ -32,7 +32,12 @@ const Quiz = (props) => {
             let btn1 = document.getElementById("answerButton" + (i));
             btn1.className = "answer-button";
         }
+        if (answer == "") {
+            alert("Please select an answer");
+            return;
+        }
         props.submitAnswer(answer)
+        setAnswer("");
     }
 
     return (
