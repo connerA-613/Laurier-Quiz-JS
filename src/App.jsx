@@ -14,7 +14,7 @@ function App() {
   const homeComp = <Home
   startQuiz = {startQuiz}></Home>
   const nav = <Navbar
-  startQuiz = {startQuiz}></Navbar>
+  restartQuiz = {restartQuiz}></Navbar>
   const [count, setCount] = useState(0)
   const [component, setComponent] = useState(homeComp)
   const [currQuestion, setCurrQuestion] = useState(0)

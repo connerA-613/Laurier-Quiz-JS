@@ -42,7 +42,7 @@ const Quiz = (props) => {
 
     return (
         <>
-            <Navbar></Navbar>
+            
         <div className="card" id="question-box">
             <h2>{props.question.questionText}</h2>
             <div className="list-group">

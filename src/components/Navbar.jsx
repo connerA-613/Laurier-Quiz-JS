@@ -13,7 +13,7 @@ const Navbar = (props) => {
                     <div class="collapse navbar-collapse" id="navbarNav">
                       <ul class="navbar-nav">
                         <li class="nav-item active">
-                          <a class="nav-link" onClick={() => props.startQuiz()} href="#">Take Quiz <span class="sr-only"></span></a>
+                          <a class="nav-link" onClick={() => props.restartQuiz()} href="#">Take Quiz <span class="sr-only"></span></a>
                         </li>
                         <li class="nav-item">
                           <a class="nav-link" href="mailto:offcampushousing@wlu.ca">Contact Us</a>
