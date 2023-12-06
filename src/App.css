@@ -6,12 +6,12 @@
 }
 
 .answer-button:hover {
-  background-color: gold;
+  background-color: white;
   color: black;
 }
 
 .start-quiz {
-  background-color: purple;
+  background-color: #330072;
   color: white;
   background-clip: padding-box;
   border: 1px solid black;
@@ -46,7 +46,7 @@
 }
 
 .start-quiz:hover {
-  background-color: goldenrod;
+  background-color: #F2A900;
   color: black;
 }
 
@@ -57,16 +57,15 @@
 }
 
 .selected-answer {
-  background-color: gold;
-  color: black;
+  background-color: #F2A900;
+  color: white;
   background-clip: padding-box;
-  border: 5px solid violet;
+  border: 5px solid white;
   margin-bottom: 1rem;
 }
 
 .navbar {
-  background-color: purple;
-  border-bottom: black solid 5px;
+  background-color: #330072;
 }
 
 #logo {
@@ -84,10 +83,15 @@
   font-size: 1.25rem;
 }
 
+.navbar-nav a:hover {
+  color: #F2A900;
+  font-size: 1.25rem;
+}
+
 
 
 .answer-button {
-  background-color: goldenrod;
+  background-color: #F2A900;
   margin-bottom: 1rem;
   color: black;
 }
@@ -100,7 +104,7 @@
 }
 
 .submit-answer {
-  background-color: violet;
+  background-color: white;
   color: black;
   background-clip: padding-box;
   border: 1px solid black;
@@ -108,8 +112,8 @@
 }
 
 .submit-answer:hover {
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
 }
 
 .answer {
@@ -117,12 +121,12 @@
 }
 
 #question-box {
-  background-color: purple;
+  background-color: #330072;
   color: white;
 }
 
 #result-box {
-  background-color: purple;
+  background-color: #330072;
   color: white;
   margin-top: 4rem;
   width: 50%;
@@ -141,43 +145,6 @@
     font-size: 16px;
   }
 }
-
-input[type=radio] {
-  accent-color: gold;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
 .card {
   padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }
